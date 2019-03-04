@@ -5,9 +5,9 @@ from email.mime.text import MIMEText
 
 def sendMail(to, content):
     mail_host = 'smtp.163.com'  
-    mail_user = '18810687830@163.com'  
-    mail_pass = 'sb18810687830sb'   
-    sender = '18810687830@163.com'  
+    mail_user = '18xxxx30@163.com'  
+    mail_pass = 'xxx0xxxb'   
+    sender = '188xxx30@163.com'  
     receivers = to
 
     message = MIMEText(content,'plain','utf-8')
