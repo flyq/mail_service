@@ -37,7 +37,7 @@ def main():
         print("Error: invalid parameters")
     else:
         print('发送Key %s 致 %s 邮箱：' % (sys.argv[1],sys.argv[2])
-        sendMail(argv[1], argv[2])
+        #sendMail(sys.argv[1], sys.argv[2])
 
 if __name__ == "__main__":
     main()
